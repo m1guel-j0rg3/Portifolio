@@ -1,6 +1,6 @@
 function enviarMensagem(event) {
     if(mensagem.value == '' || nome.value == '') {
-        alert('Por favor, preencha todos os campos antes de enviar a mensagem. Burro!')
+        alert('Por favor, preencha todos os campos antes de enviar a mensagem.')
     } else {
         
         event.preventDefault()
